@@ -10,6 +10,9 @@ namespace A893092.Actividad02
     {
         static void Main(string[] args)
         {
+
+            //A
+
            List<Producto> Productos = new List<Producto>();
 
             string Id;
@@ -89,13 +92,15 @@ namespace A893092.Actividad02
             }
 
 
+            //B
+
             string proceso;
             int Salida2 = 0;
             Producto P1;
             int num;
             
 
-            //B
+           
             do
             {
                 Console.Write("¿Que desea ingresar? (Pedir/Entregar) ");
@@ -143,6 +148,7 @@ namespace A893092.Actividad02
 
 
             //C
+
             Console.WriteLine("Reporte de Stock: ");
             foreach (Producto Producto in Productos)
             {
